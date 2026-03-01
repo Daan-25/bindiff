@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff_lib.dir/src/pe_parser.cpp.o -c /home/runner/work/testAgentC/testAgentC/src/pe_parser.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/src/pe_parser.cpp",
+  "output": "CMakeFiles/bindiff_lib.dir/src/pe_parser.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff_lib.dir/src/pe_diff.cpp.o -c /home/runner/work/testAgentC/testAgentC/src/pe_diff.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/src/pe_diff.cpp",
+  "output": "CMakeFiles/bindiff_lib.dir/src/pe_diff.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff_lib.dir/src/sha256.cpp.o -c /home/runner/work/testAgentC/testAgentC/src/sha256.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/src/sha256.cpp",
+  "output": "CMakeFiles/bindiff_lib.dir/src/sha256.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff_lib.dir/src/str_extract.cpp.o -c /home/runner/work/testAgentC/testAgentC/src/str_extract.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/src/str_extract.cpp",
+  "output": "CMakeFiles/bindiff_lib.dir/src/str_extract.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff.dir/src/main.cpp.o -c /home/runner/work/testAgentC/testAgentC/src/main.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/src/main.cpp",
+  "output": "CMakeFiles/bindiff.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/include -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff_tests.dir/tests/test_pe_parser.cpp.o -c /home/runner/work/testAgentC/testAgentC/tests/test_pe_parser.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/tests/test_pe_parser.cpp",
+  "output": "CMakeFiles/bindiff_tests.dir/tests/test_pe_parser.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/include -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff_tests.dir/tests/test_pe_diff.cpp.o -c /home/runner/work/testAgentC/testAgentC/tests/test_pe_diff.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/tests/test_pe_diff.cpp",
+  "output": "CMakeFiles/bindiff_tests.dir/tests/test_pe_diff.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/src -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/include -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/bindiff_tests.dir/tests/test_sha256_strings.cpp.o -c /home/runner/work/testAgentC/testAgentC/tests/test_sha256_strings.cpp",
+  "file": "/home/runner/work/testAgentC/testAgentC/tests/test_sha256_strings.cpp",
+  "output": "CMakeFiles/bindiff_tests.dir/tests/test_sha256_strings.cpp.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-build/googlemock",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock/include -I/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/include -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-build/googlemock",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock/include -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/include -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-build/googletest",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -I/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/include -I/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-build/googletest",
+  "command": "/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++  -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/include -isystem /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

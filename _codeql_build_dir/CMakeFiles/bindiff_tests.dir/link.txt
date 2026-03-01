@@ -1,0 +1,1 @@
+/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/bindiff_tests.dir/link.d CMakeFiles/bindiff_tests.dir/tests/test_pe_parser.cpp.o CMakeFiles/bindiff_tests.dir/tests/test_pe_diff.cpp.o CMakeFiles/bindiff_tests.dir/tests/test_sha256_strings.cpp.o -o bindiff_tests  libbindiff_lib.a lib/libgtest_main.a lib/libgtest.a

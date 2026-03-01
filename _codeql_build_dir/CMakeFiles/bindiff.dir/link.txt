@@ -1,0 +1,1 @@
+/tmp/codeql-scratch-09dd150edda90711/dbs/cpp/working/autobuild/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/bindiff.dir/link.d CMakeFiles/bindiff.dir/src/main.cpp.o -o bindiff  libbindiff_lib.a
