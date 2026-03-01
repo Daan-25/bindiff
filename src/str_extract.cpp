@@ -6,6 +6,7 @@ std::unordered_set<std::string> extract_ascii_strings(
     const uint8_t* data, size_t len, size_t min_len)
 {
     std::unordered_set<std::string> result;
+    if (data == nullptr || len == 0) return result;
     std::string current;
     for (size_t i = 0; i < len; ++i) {
         uint8_t c = data[i];
@@ -26,6 +27,7 @@ std::unordered_set<std::string> extract_utf16le_strings(
     const uint8_t* data, size_t len, size_t min_len)
 {
     std::unordered_set<std::string> result;
+    if (data == nullptr || len < 2) return result;
     std::string current;
     // Process pairs of bytes; if low byte is printable and high byte is 0x00
     // then it's a UTF-16LE printable character (BMP ASCII range).

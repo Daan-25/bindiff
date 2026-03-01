@@ -54,9 +54,19 @@ int main(int argc, char* argv[]) {
         if (arg == "--help" || arg == "-h") {
             show_help = true;
         } else if (arg == "--min-len" && i + 1 < argc) {
-            diff_opts.min_string_len = static_cast<size_t>(std::atoi(argv[++i]));
+            int val = std::atoi(argv[++i]);
+            if (val <= 0) {
+                std::cerr << "Error: --min-len requires a positive integer\n";
+                return 2;
+            }
+            diff_opts.min_string_len = static_cast<size_t>(val);
         } else if (arg == "--max-examples" && i + 1 < argc) {
-            diff_opts.max_examples = static_cast<size_t>(std::atoi(argv[++i]));
+            int val = std::atoi(argv[++i]);
+            if (val <= 0) {
+                std::cerr << "Error: --max-examples requires a positive integer\n";
+                return 2;
+            }
+            diff_opts.max_examples = static_cast<size_t>(val);
         } else if (arg == "--out" && i + 1 < argc) {
             out_file = argv[++i];
         } else if (arg == "--no-strings") {
