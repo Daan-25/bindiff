@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbindiff_lib.a CMakeFiles/bindiff_lib.dir/src/pe_parser.cpp.o CMakeFiles/bindiff_lib.dir/src/pe_diff.cpp.o CMakeFiles/bindiff_lib.dir/src/sha256.cpp.o CMakeFiles/bindiff_lib.dir/src/str_extract.cpp.o
-/usr/bin/ranlib libbindiff_lib.a

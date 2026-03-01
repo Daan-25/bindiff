@@ -1,5 +1,0 @@
-if(EXISTS "/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/bindiff_tests[1]_tests.cmake")
-  include("/home/runner/work/testAgentC/testAgentC/_codeql_build_dir/bindiff_tests[1]_tests.cmake")
-else()
-  add_test(bindiff_tests_NOT_BUILT bindiff_tests_NOT_BUILT)
-endif()
